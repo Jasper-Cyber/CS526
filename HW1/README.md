@@ -1,5 +1,5 @@
 # Self-Introduction for CS526
-# Jia Chen  jialearning.org
+### Jia Chen  https://jialearning.org
 ## How many programming classes have you taken?
 This semester, I am taking CS520 Information Structures with Java, CS665 Software Design and Patterns, and CS526 Data Structures and Algorithms.
 Before, I had taken classes in BASIC, C, computer fundamentals, web analytics, etc.
