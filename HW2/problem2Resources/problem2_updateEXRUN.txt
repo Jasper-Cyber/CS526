@@ -1,0 +1,15 @@
+# Update: replace the value at an index.
+
+# Setup: the list problem2_create.txt ends with
+append 1
+append 12
+append 99
+append 3
+append 5
+print_list
+update 2 100
+print_list
+
+1 -> 12 -> 99 -> 3 -> 5
+1 -> 12 -> 100 -> 3 -> 5
+Final list: 1 -> 12 -> 100 -> 3 -> 5

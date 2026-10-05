@@ -1,0 +1,8 @@
+# Basic test case: values added out of order come out sorted.
+add 10
+add 4
+add 29
+add 8
+add 2
+add 15
+add 41

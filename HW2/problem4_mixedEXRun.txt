@@ -1,0 +1,77 @@
+# A long mix of every directive, in upper and lower case.
+add 42
+ADD 17
+add 8
+Add 23
+add 4
+add 15
+add 16
+print_list
+exists 23
+exists 22
+count 16
+total
+median
+sum_middle_three
+
+# Remove the ends, add new ones past both ends.
+delete 4
+delete 42
+add 1
+add 100
+print_list
+total
+median
+sum_middle_three
+
+# Duplicates in the middle shift the median.
+add 16
+add 16
+print_list
+count 16
+median
+sum_middle_three
+
+# Delete everything down to two values.
+delete 16
+delete 16
+delete 16
+delete 1
+delete 100
+delete 8
+delete 23
+print_list
+median
+total
+sum_middle_three
+
+
+4 <-> 8 <-> 15 <-> 16 <-> 17 <-> 23 <-> 42 
+exists(23): True 
+exists(22): False
+count(16): 1
+total(): 125
+median(): 16
+sum_middle_three(): 48
+delete(4): True
+delete(42): True
+1 <-> 8 <-> 15 <-> 16 <-> 17 <-> 23 <-> 100
+total(): 180
+median(): 16
+sum_middle_three(): 48
+1 <-> 8 <-> 15 <-> 16 <-> 16 <-> 16 <-> 17 <-> 23 <-> 100
+count(16): 3
+median(): 16
+sum_middle_three(): 48
+delete(16): True
+delete(16): True
+delete(16): True
+delete(1): True
+delete(100): True
+delete(8): True
+delete(23): True
+15 <-> 17
+median(): 16.0
+total(): 32
+Warning: line 46: sum_middle_three: list must have at least 3 nodes
+Final list: 15 <-> 17

@@ -1,0 +1,46 @@
+# total, sum_middle_three, and median as the list grows from odd to even lengths.
+total
+add 6
+add 2
+add 4
+print_list
+total
+sum_middle_three
+median
+
+add 8
+print_list
+total
+sum_middle_three
+median
+
+add 10
+print_list
+total
+sum_middle_three
+median
+
+add 12
+print_list
+total
+sum_middle_three
+median
+
+total(): 0 
+2 <-> 4 <-> 6 
+total(): 12
+sum_middle_three(): 12
+median(): 4
+2 <-> 4 <-> 6 <-> 8
+total(): 20
+sum_middle_three(): 12
+median(): 5.0
+2 <-> 4 <-> 6 <-> 8 <-> 10
+total(): 30
+sum_middle_three(): 18
+median(): 6
+2 <-> 4 <-> 6 <-> 8 <-> 10 <-> 12
+total(): 42
+sum_middle_three(): 18
+median(): 7.0
+Final list: 2 <-> 4 <-> 6 <-> 8 <-> 10 <-> 12

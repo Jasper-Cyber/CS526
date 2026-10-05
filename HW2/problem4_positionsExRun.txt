@@ -1,0 +1,43 @@
+# Adds and deletes at every position: empty list, new head, new tail, and middle.
+add 50
+print_list
+add 10
+print_list
+add 90
+print_list
+add 30
+add 70
+print_list
+
+# Delete the head, the tail, then a middle value.
+delete 10
+print_list
+delete 90
+print_list
+delete 50
+print_list
+
+# Empty the list, then build it again.
+delete 30
+delete 70
+print_list
+add 60
+add 20
+print_list
+
+
+50
+10 <-> 50
+10 <-> 50 <-> 90
+10 <-> 30 <-> 50 <-> 70 <-> 90
+delete(10): True
+30 <-> 50 <-> 70 <-> 90
+delete(90): True
+30 <-> 50 <-> 70
+delete(50): True
+30 <-> 70
+delete(30): True
+delete(70): True
+(empty)
+20 <-> 60
+Final list: 20 <-> 60
