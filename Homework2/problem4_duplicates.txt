@@ -1,0 +1,116 @@
+# Duplicate values: counting, deleting one copy at a time, and exists.
+add 7
+add 3
+add 7
+add 7
+add 1
+add 3
+print_list
+count 7
+count 3
+count 1
+count 4
+
+delete 7
+print_list
+count 7
+delete 7
+delete 7
+count 7
+exists 7
+delete 7
+print_list
+
+Warning: '#' is not a whole number, skipped 
+Warning: 'Duplicate' is not a whole number, skipped 
+Warning: 'values:' is not a whole number, skipped
+Warning: 'counting,' is not a whole number, skipped
+Warning: 'deleting' is not a whole number, skipped
+Warning: 'one' is not a whole number, skipped
+Warning: 'copy' is not a whole number, skipped
+Warning: 'at' is not a whole number, skipped
+Warning: 'a' is not a whole number, skipped
+Warning: 'time,' is not a whole number, skipped
+Warning: 'and' is not a whole number, skipped
+Warning: 'exists.' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'add' is not a whole number, skipped
+Warning: 'print_list' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'delete' is not a whole number, skipped
+Warning: 'print_list' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'delete' is not a whole number, skipped
+Warning: 'delete' is not a whole number, skipped
+Warning: 'count' is not a whole number, skipped
+Warning: 'exists' is not a whole number, skipped
+Warning: 'delete' is not a whole number, skipped
+Warning: 'print_list' is not a whole number, skipped
+Warning: 'Adding' is not a whole number, skipped
+Warning: '10,' is not a whole number, skipped
+Warning: '4,' is not a whole number, skipped
+Warning: '29,' is not a whole number, skipped
+Warning: '8,' is not a whole number, skipped
+Warning: '2,' is not a whole number, skipped
+Warning: '15,' is not a whole number, skipped
+Warning: '...' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: 'total():' is not a whole number, skipped
+Warning: 'sum_middle_three():' is not a whole number, skipped
+Warning: 'median():' is not a whole number, skipped
+Warning: 'delete(41):' is not a whole number, skipped
+Warning: 'True' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: 'total():' is not a whole number, skipped
+Warning: 'sum_middle_three():' is not a whole number, skipped
+Warning: 'median():' is not a whole number, skipped 
+Warning: '9.0' is not a whole number, skipped 
+Warning: 'add(8)' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: '<->' is not a whole number, skipped
+Warning: 'count(8):' is not a whole number, skipped
+Warning: 'count(5):' is not a whole number, skipped
+Warning: 'exists(15):' is not a whole number, skipped
+Warning: 'True' is not a whole number, skipped
+Warning: 'exists(5):' is not a whole number, skipped
+Warning: 'False' is not a whole number, skipped
+0 <-> 1 <-> 1 <-> 2 <-> 2 <-> 2 <-> 2 <-> 2 <-> 3 <-> 3 <-> 3 <-> 4 <-> 4 <-> 4 <-> 4 <-> 4 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 8 <-> 8 <-> 8 <-> 8 <-> 8 <-> 10 <-> 10 <-> 10 <-> 10 <-> 10 <-> 15 <-> 15 <-> 15 <-> 15 <-> 22 <-> 29 <-> 29 <-> 29 <-> 29 <-> 33 <-> 41 <-> 41 <-> 41 <-> 
+68 <-> 109
+total(): 739
+sum_middle_three(): 21
+median(): 7.0
+
+delete(41): True
+0 <-> 1 <-> 1 <-> 2 <-> 2 <-> 2 <-> 2 <-> 2 <-> 3 <-> 3 <-> 3 <-> 4 <-> 4 <-> 4 <-> 4 <-> 4 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 8 <-> 8 <-> 8 <-> 8 <-> 8 <-> 10 <-> 10 <-> 10 <-> 10 <-> 10 <-> 15 <-> 15 <-> 15 <-> 15 <-> 22 <-> 29 <-> 29 <-> 29 <-> 29 <-> 33 <-> 41 <-> 41 <-> 68 <-> 
+109
+total(): 698
+sum_middle_three(): 21
+median(): 7
+
+add(8)
+0 <-> 1 <-> 1 <-> 2 <-> 2 <-> 2 <-> 2 <-> 2 <-> 3 <-> 3 <-> 3 <-> 4 <-> 4 <-> 4 <-> 4 <-> 4 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 7 <-> 8 <-> 8 <-> 8 <-> 8 <-> 8 <-> 8 <-> 10 <-> 10 <-> 
+10 <-> 10 <-> 10 <-> 15 <-> 15 <-> 15 <-> 15 <-> 22 <-> 29 <-> 29 <-> 29 <-> 29 <-> 33 <-> 41 <-> 41 <-> 68 <-> 109
+count(8): 6
+count(5): 0
+exists(15): True
+exists(5): False
