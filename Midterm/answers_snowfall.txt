@@ -1,0 +1,8 @@
+# Expected last line of output for each snowfall_input<id>.txt.
+# Answers 1-4 are the results given in the assignment.
+# Answer 5 is worked out by hand: n = 3 has one window, days 1-3 = 3, more than half of 3.
+answer 1: 1 4 10 14 15 17 17 23 solution: YES
+answer 2: 44 127 166 231 238 320 363 429 500 511 577 642 689 764 812 886 solution: NO
+answer 3: 3 8 14 19 21 24 25 25 32 solution: NO
+answer 4: 1 2 3 4 5 solution: YES
+answer 5: 1 2 3 solution: YES

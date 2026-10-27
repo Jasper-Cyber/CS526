@@ -1,0 +1,4 @@
+# Expected last line of output for each pandemic_input<id>.txt.
+# Both answers are the results given in the assignment.
+answer 1: There are healthy counties left
+answer 2: There are no healthy counties left

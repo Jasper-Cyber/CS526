@@ -1,0 +1,31 @@
+Day 1
+. . . . .
+. . . X .
+. . X . .
+. . . . X
+. . . . .
+
+Day 2
+. . . . .
+. . X X .
+. . X X .
+. . . . X
+. . . . .
+
+Day 3
+. . . . .
+. . X X .
+. . X X X
+. . . X X
+. . . . .
+
+Day 4
+. . . . .
+. . X X X
+. . X X X
+. . X X X
+. . . . .
+
+Day 5: no new counties are infected, so the infection has stopped spreading.
+
+There are healthy counties left

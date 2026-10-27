@@ -1,0 +1,8 @@
+# Expected last line of output for each puzzle_game_input<id>.txt.
+# Answers 1 and 2 are the results given in the assignment.
+# Answer 3: input3 is the 4x4 example board, which the assignment says is valid.
+# Answer 4 is worked out by hand: @ appears twice in the top-left 2x2 sub-board.
+answer 1: The board is valid
+answer 2: The board is invalid
+answer 3: The board is valid
+answer 4: The board is invalid
