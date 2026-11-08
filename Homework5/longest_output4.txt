@@ -1,0 +1,2 @@
+File Input: longest_seq4.txt
+Longest Sequence: 39

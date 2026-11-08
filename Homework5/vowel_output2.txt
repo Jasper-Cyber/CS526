@@ -1,0 +1,2 @@
+File Input: vowel_input2.txt
+The Number of Vowel combinations is:  8

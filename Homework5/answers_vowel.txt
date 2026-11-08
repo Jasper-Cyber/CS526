@@ -1,0 +1,6 @@
+# Expected number of vowel combinations for each vowel_input<id>.txt.
+# All answers are the results given in the assignment.
+answer 1: 6
+answer 2: 8
+answer 3: 0
+answer 4: 193050000

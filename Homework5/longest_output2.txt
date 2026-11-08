@@ -1,0 +1,2 @@
+File Input: longest_seq2.txt
+Longest Sequence: 7

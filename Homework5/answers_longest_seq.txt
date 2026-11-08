@@ -1,0 +1,8 @@
+# Expected longest sequence length for each longest_seq<id>.txt.
+# All answers are the results given in the assignment.
+answer 1: 4
+answer 2: 7
+answer 3: 10
+answer 4: 39
+answer 5: 192
+answer 6: 1

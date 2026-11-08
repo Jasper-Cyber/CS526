@@ -1,0 +1,2 @@
+File Input: longest_seq6.txt
+Longest Sequence: 1
