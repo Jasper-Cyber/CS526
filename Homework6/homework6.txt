@@ -1,0 +1,149 @@
+﻿CS526 Homework Assignment 6
+Boston University Metropolitan College
+ 
+Problem 1 (30 pts)
+ 
+• Merge k Sorted Lists Using a Priority Queue
+ 
+At closing time the store must combine the sales logs from its k
+checkout registers into one log. Each register's log is a list of sale
+times, in seconds after opening, sorted in increasing order. A log may
+be empty, and two sales may have the same time. For example:
+ 
+    Register 1: [3, 9, 14]
+    Register 2: [1, 9, 20, 25]
+    Register 3: []
+    Register 4: [5]
+ 
+Write a function that merges the k logs into a single list of
+(time, register) pairs, sorted by time. If two sales have the same
+time, the sale from the lower-numbered register comes first. The
+example above produces:
+ 
+    [(1, 2), (3, 1), (5, 4), (9, 1), (9, 2), (14, 1), (20, 2), (25, 2)]
+ 
+Your program must read the logs from standard input, one register per
+line, with registers numbered from 1 in the order they appear. An empty
+log is written []. The example above is the input:
+ 
+    [3, 9, 14]
+    [1, 9, 20, 25]
+    []
+    [5]
+ 
+Your solution must follow these rules:
+    • Use your own priority queue. You may not use heapq, sort(),
+      sorted(), or any other library sorting or priority queue code.
+    • The priority queue may never hold more than k entries, at most
+      one from each register.
+ 
+In your readme.txt, explain solution and algorithm.
+ 
+ 
+Problem 2 (40 pts)
+ 
+• Implement a Heap
+ 
+Implement a binary min-heap as a binary tree of linked nodes. Each node
+must hold a value and references to its left child, right child, and
+parent. You may not store the heap in a list or array.
+ 
+The tree must follow two rules at all times:
+    • Heap order: every node's value is less than or equal to the values
+      of its children, so the smallest value is always at the root.
+    • Complete shape: every level is full except possibly the last,
+      which is filled from the left.
+ 
+To reach the next free spot in O(log n) time, logically or actually
+number the positions from
+1 in level order, left to right. The binary digits of a position after
+the leading 1 give the path from the root, where 0 means go left and 1
+means go right. For example, position 6 is 110 in binary, so the path
+is right, then left.
+ 
+Your heap must provide the following methods:
+ 
+    insert(value)    Add a value to the heap.
+    peek()           Return the smallest value without removing it.
+    extract_min()    Remove and return the smallest value.
+    delete(value)    Remove one copy of a value. Return True if it was
+                     removed and False if it was not in the heap.
+    build(values)    Turn a list of values into a heap all at once.
+    heap_sort()      Return the values in increasing order, leaving the
+                     heap unchanged.
+    is_empty()       Return whether the heap has no values.
+    __len__()        Return the number of values, so that len(heap)
+                     works.
+    print_heap()     Draw the tree with the root at the top and a / or
+                     \ above each child, as shown below.
+ 
+peek() and extract_min() must raise an IndexError on an empty heap.
+You may not use heapq, sort(), sorted(), or any other library sorting
+or heap code.
+ 
+Your program must read a list of values from standard input, starting
+with an empty heap. It must print the input values, then insert the
+values one at a time in the order given, printing the heap after each
+insert. A new value moves up only while it is strictly smaller than its
+parent. For example, the input
+ 
+    [8, 3, 5, 1]
+ 
+must print the output below. Your spacing does not have to match
+exactly, but every value must appear in its correct place in the tree.
+ 
+    Input values: [8, 3, 5, 1]
+ 
+    After insert(8):
+      8
+ 
+    After insert(3):
+        3
+       /
+      8
+ 
+    After insert(5):
+        3
+       / \
+      8   5
+ 
+    After insert(1):
+            1
+          /   \
+        3       5
+       /
+      8
+ 
+ 
+Problem 3 (30)
+ 
+• Find the Running Median Using Your Heap
+ 
+The store owner wants a live display of the median sale amount for the
+day. Sale amounts arrive one at a time, in whole dollars, in no
+particular order. After each new sale, the display must show the median
+of all the sales so far. If the number of sales so far is even, the
+median is the average of the two middle values. For example, the sales
+ 
+    [5, 15, 2, 4, 8]
+ 
+produce the running medians
+ 
+    [5.0, 10.0, 5.0, 4.5, 5.0]
+ 
+Your program must read the sales from standard input as a single list
+in the format shown above, and print the list of running medians. If
+the list is empty, print an empty list.
+ 
+Your solution must follow these rules:
+    • You must use your own heap implementation from Problem 2. You may
+      extend it, for example to support a max-heap, but you may not
+      replace it.
+    • You may not use heapq, sort(), sorted(), the statistics module, or
+      any other library sorting, heap, or median code.
+    • You may not keep the sales in a sorted list or re-sort them after
+      each sale.
+ 
+In your readme.txt, explain how your solution uses your heap, what must
+stay true after each sale for the median to be available in O(1) time,
+and your overall algorithm and approach.
